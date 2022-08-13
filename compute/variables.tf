@@ -15,3 +15,18 @@ variable "env" {
   type        = string
   description = "name of the environment"
 }
+
+variable "vpc_name" {
+  type = string
+  description = "name of the vpc network"
+}
+
+variable "subnet_name" {
+  type = string
+  description = "name of the vpc network"
+}
+
+variable "gke_cluster_name" {
+  type = string
+  description = "name of the gke cluster"
+}
