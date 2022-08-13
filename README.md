@@ -2,10 +2,10 @@
 This is personal terraform exercise repo
 
 This terraform exercise contains:
-[v] iam binding
-[v] private network, gateway, firewall, loadbalancer and dns setup
-[v] GKE cluster with private network
-[] database cluster
-[] Ansible bastion
-[] Vault cluster
+ - [x] Iam binding
+ - [x] Private network, gateway, firewall, loadbalancer and dns setup
+ - [x] GKE cluster with private network
+ - [ ] Database cluster
+ - [ ] Ansible bastion
+ - [ ] Vault cluster
 
