@@ -1,17 +1,14 @@
 variable "project_id" {
   type        = string
   description = "GCP Project"
-  default     = "clgcporg4-013"
 }
 
 variable "region" {
   type    = string
-  default = "us-central1"
 }
 
 variable "zone" {
   type    = string
-  default = "us-central1-c"
 }
 
 variable "env" {
