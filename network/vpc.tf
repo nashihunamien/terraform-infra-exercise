@@ -26,7 +26,7 @@ module "vpc" {
     ]
 
     secondary_ranges = {
-        kubernetes = [
+        kubernetes_networks = [
             {
                 range_name    = "kube-pod"
                 ip_cidr_range = var.secondary_subnet_ip_pod
