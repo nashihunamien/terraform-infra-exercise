@@ -48,3 +48,9 @@ module "vpc" {
         }
     ]
 }
+
+resource "google_service_networking_connection" "connection_network" {
+  network                 = module.vpc.network_name
+  service                 = "servicenetworking.googleapis.com"
+  reserved_peering_ranges = [google_compute_global_address.private_ip_service.name]
+}

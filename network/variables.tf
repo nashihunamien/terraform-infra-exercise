@@ -45,3 +45,8 @@ variable "secondary_subnet_ip_service" {
   type        = string
   description = "Subnet IP Block to use for kube service."
 }
+
+variable "ip_google_private_ip_service" {
+  type        = string
+  description = "Subnet IP Block to use for Google private IP"
+} 
