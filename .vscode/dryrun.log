@@ -1,5 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
 make: Entering directory `/Users/nashihunamien/Documents/Workspace/Personal-Project/terraform-infra-exercise'
 make: Leaving directory `/Users/nashihunamien/Documents/Workspace/Personal-Project/terraform-infra-exercise'
  
-make: *** No targets.  Stop.
+Makefile:7: *** missing separator.  Stop.
 

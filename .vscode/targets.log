@@ -7,7 +7,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 
 # This program built for i386-apple-darwin11.3.0
 
-# Make data base, printed on Mon Aug 15 09:04:50 2022
+# Make data base, printed on Mon Aug 15 14:55:12 2022
 
 # Variables
 
@@ -25,14 +25,14 @@ NVM_INC = /Users/nashihunamien/.nvm/versions/node/v18.5.0/include/node
 @F = $(notdir $@)
 # makefile
 CURDIR := /Users/nashihunamien/Documents/Workspace/Personal-Project/terraform-infra-exercise
-# makefile
-SHELL = /bin/sh
+# makefile (from `Makefile', line 3)
+SHELL = /bin/bash
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
 _ = /usr/bin/make
-# makefile (from `makefile', line 1)
-MAKEFILE_LIST :=  makefile
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
@@ -96,7 +96,7 @@ MAKE_VERSION := 3.81
 # environment
 USER = nashihunamien
 # makefile
-.DEFAULT_GOAL := 
+.DEFAULT_GOAL := terrafom-init
 # environment
 LESS = -R
 # automatic
@@ -151,6 +151,8 @@ PYENV_VIRTUALENV_INIT = 1
 .INCLUDE_DIRS = /usr/local/include
 # environment
 MAKELEVEL := 0
+# makefile (from `Makefile', line 4)
+ENV = development
 # environment
 LANG = C
 # environment
@@ -158,7 +160,7 @@ DOCKER_HOST = ssh://root@localhost:56921/run/podman/podman.sock
 # environment
 VSCODE_PID = 2031
 # variable set hash-table stats:
-# Load=73/1024=7%, Rehash=0, Collisions=1/96=1%
+# Load=74/1024=7%, Rehash=0, Collisions=1/92=1%
 
 # Pattern-specific Variable Values
 
@@ -166,9 +168,9 @@ VSCODE_PID = 2031
 
 # Directories
 
-# . (device 16777223, inode 29817312): 11 files, no impossibilities.
+# . (device 16777223, inode 29817312): 13 files, no impossibilities.
 
-# 11 files, no impossibilities in 1 directories.
+# 13 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -176,14 +178,22 @@ VSCODE_PID = 2031
 
 # Files
 
+terrafom-init:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
 # Not a target:
 all:
 #  Command-line target.
-#  Implicit rule search has been done.
-#  File does not exist.
+#  Implicit rule search has not been done.
+#  Modification time never checked.
 #  File has not been updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.PHONY: all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 .SUFFIXES:
@@ -192,13 +202,10 @@ all:
 #  File has not been updated.
 
 # Not a target:
-makefile:
-#  Implicit rule search has been done.
-#  Last modified 2022-08-14 22:40:49
-#  File has been updated.
-#  Successfully updated.
-# variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+Makefile:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 # Not a target:
 .DEFAULT:
@@ -207,7 +214,7 @@ makefile:
 #  File has not been updated.
 
 # files hash-table stats:
-# Load=4/1024=0%, Rehash=0, Collisions=0/16=0%
+# Load=6/1024=1%, Rehash=0, Collisions=0/7=0%
 # VPATH Search Paths
 
 # No `vpath' search paths.
@@ -219,8 +226,8 @@ makefile:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Mon Aug 15 09:04:50 2022
+# Finished Make data base on Mon Aug 15 14:55:12 2022
 
  
-make: *** No rule to make target `all'.  Stop.
+Makefile:7: *** missing separator.  Stop.
 
