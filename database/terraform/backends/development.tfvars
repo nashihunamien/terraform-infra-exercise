@@ -1,2 +1,2 @@
-bucket  = "tf-state-development-database-1"
+bucket  = "tf-state-development-database"
 prefix  = "terraform/state"

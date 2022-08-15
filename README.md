@@ -1,5 +1,8 @@
 # Terraform Infra Exercise
-This is personal terraform exercise repo
+This is personal terraform GCP exercise repo.
+Infra diagram can be found in topology folder.
+
+This terraform runs locally with GCS backend due to my personal GCP account features limitation.
 
 This terraform exercise contains:
  - [x] Iam binding

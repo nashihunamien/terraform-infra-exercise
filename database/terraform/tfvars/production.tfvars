@@ -1,4 +1,10 @@
 env = "production"
-project_id = "clgcporg4-013"
+project_id = "" # change to your personal project id
 region = "us-central1"
 zone = "us-central1-c"
+vpc_name = "production-vpc"
+subnet_name = "subnet-data"
+availability_type = "REGIONAL"
+pg_ha_name = "db-production"
+db_version = "POSTGRES_9_6"
+db_tier = "db-custom-1-3840"
