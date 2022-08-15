@@ -8,4 +8,5 @@ This terraform exercise contains:
  - [ ] Database cluster
  - [ ] Ansible bastion
  - [ ] Vault cluster
+ - [x] Makefile
 
